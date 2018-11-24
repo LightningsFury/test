@@ -9,14 +9,14 @@ const app = express();
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
 // http://expressjs.com/en/starter/static-files.html
-app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
+
+app.use(express.static('views'))
+
 app.get('/', function(request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
-
-app.use(express.static('views'))
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
