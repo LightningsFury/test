@@ -449,7 +449,7 @@ img {
         text-transform: capitalize;
         font-size: 18px;
         padding: 0 10px;
-        color: #ffffff; }
+        color: #000000; }
         .header-area .pixel-main-menu .classy-navbar .classynav ul li a:hover, .header-area .pixel-main-menu .classy-navbar .classynav ul li a:focus {
           color: #ff7902; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -474,7 +474,7 @@ img {
             padding-left: 10px; } }
       .header-area .pixel-main-menu .classy-navbar .classynav ul li.megamenu-item > a::after,
       .header-area .pixel-main-menu .classy-navbar .classynav ul li.has-down > a::after {
-        color: #ffffff; }
+        color: #000000; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .pixel-main-menu .classy-navbar .classynav ul li.megamenu-item > a::after,
           .header-area .pixel-main-menu .classy-navbar .classynav ul li.has-down > a::after {
@@ -507,7 +507,7 @@ img {
       height: 40px;
       font-size: 18px;
       border: 2px solid #ffffff;
-      color: #ffffff;
+      color: #000000;
       border-radius: 50%;
       text-align: center;
       line-height: 36px;
@@ -545,7 +545,7 @@ img {
     box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.3); }
 
 .classy-navbar-toggler .navbarToggler span {
-  background-color: #ffffff; }
+  background-color: #0a0808; }
 
 /* :: 5.0 Hero Area CSS */
 .hero-area {
@@ -614,12 +614,12 @@ img {
     z-index: 1; }
     .single-slide .welcome-text h2 {
       font-size: 72px;
-      color: #ffffff;
+      color: #020101;
       font-weight: 500;
       margin-bottom: 10px;
       text-transform: uppercase; }
       .single-slide .welcome-text h2 span {
-        color: #ffffff;
+        color: #000000;
         font-weight: 300; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-slide .welcome-text h2 {
@@ -633,7 +633,7 @@ img {
     .single-slide .welcome-text h4 {
       font-size: 24px;
       font-weight: 400;
-      color: #ffffff;
+      color: #000000;
       margin-bottom: 15px; }
       @media only screen and (max-width: 767px) {
         .single-slide .welcome-text h4 {
